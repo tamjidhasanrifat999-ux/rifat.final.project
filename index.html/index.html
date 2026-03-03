@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamjed Rifat | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">TR<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="gallery.html">Photo Gallery</a></li>
+            </ul>
+            <div class="menu-btn"><i class="fas fa-bars"></i></div>
+        </div>
+    </nav>
+
+    <section class="slider-section">
+        <div class="slider">
+            <div class="slides">
+                <div class="slide">
+                    <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1600&q=80" alt="Cybersecurity">
+                    <div class="slide-caption">Cybersecurity Specialist</div>
+                </div>
+                <div class="slide">
+                    <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1600&q=80" alt="Programming">
+                    <div class="slide-caption">C++ Developer</div>
+                </div>
+                <div class="slide">
+                    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1600&q=80" alt="Web Dev">
+                    <div class="slide-caption">Modern Web Design</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="hero" class="hero">
+        <div class="container animate-on-scroll">
+            <h1>Hi, I'm <span>Tamjed Rifat</span></h1>
+            <h3>Computer Science Student | Future Cybersecurity Specialist</h3>
+            <p>I build secure, efficient, and user-friendly digital experiences. Currently focusing on mastering C++ and exploring the depths of network security.</p>
+            <div class="hero-btns">
+                <a href="#" class="btn btn-primary">Download CV</a>
+                <a href="#contact" class="btn btn-outline">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container animate-on-scroll">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p>I am a passionate Computer Science student dedicated to bridging the gap between development and security. With a strong foundation in <strong>C++</strong> and <strong>Web Development</strong>, I am currently diving into the world of <strong>Cybersecurity</strong> to build more resilient systems.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container animate-on-scroll">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card"><i class="fab fa-cpp"></i> <h3>C++</h3></div>
+                <div class="skill-card"><i class="fab fa-html5"></i> <h3>HTML</h3></div>
+                <div class="skill-card"><i class="fab fa-css3-alt"></i> <h3>CSS</h3></div>
+                <div class="skill-card"><i class="fab fa-js"></i> <h3>JavaScript</h3></div>
+                <div class="skill-card"><i class="fas fa-network-wired"></i> <h3>Networking Basics</h3></div>
+                <div class="skill-card"><i class="fas fa-shield-alt"></i> <h3>Cybersecurity Fundamentals</h3></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container animate-on-scroll">
+            <h2 class="section-title">Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Personal Portfolio</h3>
+                    <p>A modern responsive website built with HTML, CSS, and JS to showcase my work.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Login Auth System</h3>
+                    <p>A secure login system implementing encryption and session management basics.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Vuln Scanner Concept</h3>
+                    <p>A Python/C++ based conceptual tool to identify basic network vulnerabilities.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container animate-on-scroll">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <p><i class="fas fa-envelope"></i> email@example.com</p>
+                    <p><i class="fab fa-github"></i> <a href="#">github.com/tamjedrifat</a></p>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Name" required>
+                    <input type="email" placeholder="Email" required>
+                    <textarea placeholder="Message" rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Tamjed Rifat. All Rights Reserved.</p>
+            <div class="socials">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
